@@ -1,0 +1,27 @@
+Instalando a biblioteca Conio2 no CodeBlocks
+
+Passos:
+
+
+1º : Obtenha os arquivos da biblioteca Conio2 ( 'conio2.h' e 'libconio.a' )
+
+2º : Coloque o arquivo  'conio2.h' na pasta 'include' da pasta do CodeBlocks ( C:\Arquivos de programas\CodeBlocks\MinGW\include ).
+
+3º : Coloque o arquivo  'libconio.a' na pasta 'lib'da pasta do CodeBlocks ( C:\Arquivos de programas\CodeBlocks\MinGW\lib ).
+
+4º : Feitos os passos anteriores. Abra o CodeBlocks, e clique em:  Settings-> Compiler and debugger .
+
+5º : Depois de aberto o "Compiler and debugger" , mude para a aba "Linker settings".
+
+6º : Em 'Link libraries' clique em 'add' e escolha o arquivo 'libconio.a' que vai estar onde você colocou anteriormente ( C:\Arquivos de Programas\CodeBlocks\MinGW\lib\libconio.a ).
+
+7º : Clique em 'ok' na janela. E... Voilà!! Conio2 instalada!!! Agora é só aproveita-la!!
+
+
+
+Obs: Para utilizar comandos da 'conio2.h' no seu código fonte, você deverá incluí-la como fazemos com as outras bibliotecas :   #include <conio2.h> 
+
+
+
+
+Créditos: Fernando Lafetá
