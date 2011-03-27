@@ -1,26 +1,26 @@
-Instalando a biblioteca Conio2 no DevC++
+ï»¿Instalando a biblioteca Conio2 no DevC++
 
 Passos:
 
-1º : Obtenha os arquivos da biblioteca Conio2 ( 'conio2.h' e 'libconio.a' )
+1Âº : Obtenha os arquivos da biblioteca Conio2 ( 'conio2.h' e 'libconio.a' )
 
-2º : Coloque o arquivo  'conio2.h' na pasta 'include' da pasta do DevC++ ( C:\Dev-Cpp\include ).
+2Âº : Coloque o arquivo  'conio2.h' na pasta 'include' da pasta do DevC++ ( C:\Dev-Cpp\include ).
 
-3º : Coloque o arquivo  'libconio.a' na pasta 'lib' da pasta do DevC++ ( C:\Dev-Cpp\lib ).
+3Âº : Coloque o arquivo  'libconio.a' na pasta 'lib' da pasta do DevC++ ( C:\Dev-Cpp\lib ).
 
-4º : Feitos os passos anteriores. Abra o DevC++, e clique em:  Ferramentas -> Opções do Compilador .
+4Âº : Feitos os passos anteriores. Abra o DevC++, e clique em:  Ferramentas -> OpÃ§Ãµes do Compilador .
 
-5º : Na aba "Compilador", marque a opção "Adicionar estes comandos à linha de comando do linker"
+5Âº : Na aba "Compilador", marque a opÃ§Ã£o "Adicionar estes comandos Ã  linha de comando do linker"
 
-6º : No campo da opção marcada, digite:   -l conio
+6Âº : No campo da opÃ§Ã£o marcada, digite:   -l conio
 
-7º : Clique em 'ok' na janela. E... Voilà!! Conio2 instalada!!! Agora é só aproveita-la!!
-
-
-
-Obs: Para utilizar comandos da 'conio2.h' no seu código fonte, você deverá incluí-la como fazemos com as outras bibliotecas :   #include <conio2.h> 
+7Âº : Clique em 'ok' na janela. E... VoilÃ !! Conio2 instalada!!! Agora Ã© sÃ³ aproveita-la!!
 
 
 
+Obs: Para utilizar comandos da 'conio2.h' no seu cÃ³digo fonte, vocÃª deverÃ¡ incluÃ­-la como fazemos com as outras bibliotecas :   #include <conio2.h> 
 
-Créditos: Fernando Lafetá
+
+
+
+CrÃ©ditos: Fernando LafetÃ¡
